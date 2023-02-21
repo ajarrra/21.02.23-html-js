@@ -49,7 +49,17 @@ for( let i = 1 ; i <= 10; i++){
     listItem.style.color = "blue"
     example8.append(listItem);    
 } 
-
 //example8.style.border = "1px solid black "
 
+
+//задача вывести массив в виде списка
+let fruits = ["Apple" , "Pear " , " Orange " , " Banana"];
+let example9 = document.createElement ("ul")
+document.body.prepend(example9);
+for( i = 0 ; i < fruits.length; i++ ){
+ let listItem = document.createElement("li");
+ listItem.textContent = fruits[i];
+ example9.append(listItem) 
+ 
+}
 
