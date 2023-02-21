@@ -30,36 +30,36 @@ for (let i = 0; i < example6.length; i++) {
     paragraph.textContent += "🥰";
 }
 
-let example7 = document.createElement ("p"); //создали эл  // <p></p>
+let example7 = document.createElement("p"); //создали эл  // <p></p>
 example7.textContent = "Lorem ipsum";//добавл текст  <p>Lorem ipsum </p>
 //document.body.append(example7);   // привязываем к body  <body> ....  <p>Lorem ipsum </p> </body>
 //добавить в конце этого эл (append) а (predend) доб в начале 
 
-example1.append(example7); 
+example1.append(example7);
 
 //создать код кот хранит в ex8 ul
 let example8 = document.createElement("ul");
-example8.className = "example-8" ; //связываем  css к js
+example8.className = "example-8"; //связываем  css к js
 //добавть ul к body
 document.body.append(example8);
 //заполним li
-for( let i = 1 ; i <= 10; i++){
+for (let i = 1; i <= 10; i++) {
     let listItem = document.createElement("li")
     listItem.textContent = "example  " + i;
     listItem.style.color = "blue"
-    example8.append(listItem);    
-} 
+    example8.append(listItem);
+}
 //example8.style.border = "1px solid black "
 
 
 //задача вывести массив в виде списка
-let fruits = ["Apple" , "Pear " , " Orange " , " Banana"];
-let example9 = document.createElement ("ul")
-document.body.prepend(example9);
-for( i = 0 ; i < fruits.length; i++ ){
- let listItem = document.createElement("li");
- listItem.textContent = fruits[i];
- example9.append(listItem) 
- 
+let fruits = ["Apple", "Pear ", " Orange ", " Banana"];
+let example9 = document.createElement("ul")//создает эл но не заполняет 
+document.body.prepend(example9);//заполняет 
+for (i = 0; i < fruits.length; i++) {
+    let listItem = document.createElement("li");
+    listItem.textContent = fruits[i];
+    example9.append(listItem)
+
 }
 
