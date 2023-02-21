@@ -39,6 +39,7 @@ example1.append(example7);
 
 //создать код кот хранит в ex8 ul
 let example8 = document.createElement("ul");
+example8.className = "example-8" ; //связываем  css к js
 //добавть ul к body
 document.body.append(example8);
 //заполним li
@@ -49,6 +50,6 @@ for( let i = 1 ; i <= 10; i++){
     example8.append(listItem);    
 } 
 
-example8.style.border = "1px solid black "
+//example8.style.border = "1px solid black "
 
 
