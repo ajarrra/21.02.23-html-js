@@ -63,3 +63,6 @@ for (i = 0; i < fruits.length; i++) {
 
 }
 
+example9.remove();//удалить эл со стр
+
+
