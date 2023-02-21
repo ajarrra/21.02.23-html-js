@@ -45,9 +45,10 @@ document.body.append(example8);
 for( let i = 1 ; i <= 10; i++){
     let listItem = document.createElement("li")
     listItem.textContent = "example  " + i;
+    listItem.style.color = "blue"
     example8.append(listItem);    
 } 
 
-
+example8.style.border = "1px solid black "
 
 
