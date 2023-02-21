@@ -2,7 +2,9 @@ let example1 = document.querySelector("article"); //всегда пишем до
 console.log(example1); 
 
 let example2 = document.querySelector("p");
+example2.textContent = "Hello world";  //изменили описание параграфа
 console.log(example2);
+
 
 let example3 = document.querySelector(".example-3");  //класс
 console.log(example3);
