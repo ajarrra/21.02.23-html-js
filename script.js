@@ -30,8 +30,18 @@ for (let i = 0; i < example6.length; i++) {
     paragraph.textContent += "🥰";
 }
 
-let example7 = document.createElement ("p"); //создали эл
-example7.textContent = "Lorem ipsum";
+let example7 = document.createElement ("p"); //создали эл  // <p></p>
+example7.textContent = "Lorem ipsum";//добавл текст  <p>Lorem ipsum </p>
+//document.body.append(example7);   // привязываем к body  <body> ....  <p>Lorem ipsum </p> </body>
+//добавить в конце этого эл (append) а (predend) доб в начале 
+
+example1.append(example7); 
+
+//создать код кот хранит в ex8 ul
+let example8 = document.createElement("ul");
+//добавть ul к body
+document.body.append(example8);
+
 
 
 
