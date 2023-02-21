@@ -10,7 +10,7 @@ console.log(example2);
 
 let example3 = document.querySelector(".example-3");  //класс
 example3.textContent = "This is my vloggg";
-example3.style.fontWeight = "600"; 
+example3.style.fontWeight = "600";
 console.log(example3);
 
 let example4 = document.querySelector("#example-4");  //айди 
@@ -24,3 +24,14 @@ console.log(example5);
 
 
 let example6 = document.querySelectorAll("article p "); //выбирает все эл
+//console.log(example6[0]);//как массив 
+for (let i = 0; i < example6.length; i++) {
+    let paragraph = example6[i];
+    paragraph.textContent += "🥰";
+}
+
+let example7 = document.createElement ("p"); //создали эл
+example7.textContent = "Lorem ipsum";
+
+
+
