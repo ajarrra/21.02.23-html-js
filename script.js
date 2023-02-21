@@ -41,6 +41,10 @@ example1.append(example7);
 let example8 = document.createElement("ul");
 //добавть ul к body
 document.body.append(example8);
+//заполним li
+for( let i = 0 ; i < 10; i++){
+    console.log
+} 
 
 
 
