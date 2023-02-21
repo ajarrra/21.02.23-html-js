@@ -14,10 +14,13 @@ example3.style.fontWeight = "600";
 console.log(example3);
 
 let example4 = document.querySelector("#example-4");  //айди 
-example4.textContent += "I like sushiiii";//короткий варик добавления
+example4.textContent += "I like sushiiii";//короткий вариант добавления
 example4.style.backgroundColor = "violet"
 console.log(example4);
 
 let example5 = document.querySelector("p:nth-child(4"); //псевдо селектор
 example5.textContent = example5.textContent + "Like like like"; //старое содержимое + новый текст
 console.log(example5);
+
+
+let example6 = document.querySelectorAll("article p "); //выбирает все эл
