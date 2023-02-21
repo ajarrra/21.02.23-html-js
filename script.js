@@ -10,5 +10,5 @@ console.log(example3);
 let example4 = document.querySelector("#example-4");  //айди 
 console.log(example4);
 
-
-
+let example5 = document.querySelector("p:nth-child(4"); //псевдо селектор
+console.log (example5);
